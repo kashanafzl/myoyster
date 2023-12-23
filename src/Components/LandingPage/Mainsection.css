@@ -1,0 +1,95 @@
+.leftsideofmainsection {
+    padding-left: 4rem !important;
+    padding-top: 5rem !important;
+}
+
+.leftsideofmainsection h5 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+.leftsideofmainsection h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    padding-block: 2rem !important;
+}
+
+.leftsideofmainsection p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+.leftsideofmainsection button {
+    margin-top: 2rem !important;
+    border-radius: 8px;
+    border: 1px solid rgba(7, 7, 7, 0.80);
+    padding: 0.5rem !important;
+    background: #323232;
+    color: #fff;
+    padding-left: 0.8rem !important;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+#signupfreebtn {
+    margin-left: 1rem !important;
+    background-color: transparent;
+    border: 1px solid rgba(7, 7, 7, 0.80);
+    color: black;
+}
+
+.mainsectionparadiv {
+    padding-top: 1.5rem !important;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: #323232;
+}
+
+
+.rightsideofmainsection img {
+    width: 600px;
+}
+
+
+/* seconddsection is start */
+
+.seconddsection{
+    text-align: center;
+    padding-top: 5rem !important;
+    margin-top: 5rem !important;
+    background-color: #323232;
+
+}
+
+.seconddsection h1{
+    padding-top: 1rem !important;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 3.5rem;
+    color: #fff;
+}
+
+.seconddsection p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    color: #fff;
+    padding-block: 1.5rem !important;
+}
+
+/* seconddsection is end */
+
+
+
+
+
+
+
+
+@media screen and (max-width:500px) {
+    .rightsideofmainsection img {
+        width: 400px;
+    }
+}

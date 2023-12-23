@@ -1,0 +1,8 @@
+.popupthree{
+    position: absolute;
+    top: 50px;
+    left: 30%;
+    background-color: yellow;
+    width: 50%;
+    height: 50vh;
+}

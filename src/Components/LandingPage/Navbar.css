@@ -1,0 +1,158 @@
+.maindiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 3.7rem !important;
+    padding-top: 0.7rem !important;
+    background: #FFF;
+    padding-bottom: 2rem;
+}
+
+.uflex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 50px;
+}
+
+.uflex ul li {
+    font-size: 14px;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: black;
+    cursor: pointer;
+}
+
+.newuflex ul li {
+    font-size: 14px;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: black;
+    cursor: pointer;
+}
+
+.newuflex ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.logo h2 {
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+
+#menubar {
+    display: none;
+    cursor: pointer;
+}
+
+.navbarbtn {
+    border-radius: 8px;
+    border: none;
+    border: 1px solid rgba(7, 7, 7, 0.80);
+    padding: 0.2rem !important;
+    background: #F3F3F3;
+    font-size: 14px;
+    padding-inline: 1rem !important;
+
+
+}
+
+.navbarloginbtn {
+    border-radius: 8px;
+    border: 2px solid rgba(7, 7, 7, 0.80);
+    color: #fff;
+    background: #323232;
+    padding: 0.2rem !important;
+    padding-inline: 1.5rem !important;
+    font-size: 14px;
+    margin-left: 1rem !important;
+
+}
+
+@media screen and (max-width:1024px) {
+    .maindiv {
+        padding-inline: 30px !important;
+    }
+
+    .newuflex ul {
+        gap: 10px;
+    }
+
+    .uflex {
+        gap: 30px;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .maindiv {
+        justify-content: space-between;
+    }
+
+    #menubar {
+        display: block;
+        font-size: 30px;
+        position: relative;
+        z-index: 2;
+        cursor: pointer;
+    }
+
+    .uflex {
+        background-color: lavender;
+        height: 100vh;
+        position: fixed;
+        right: -50%;
+        top: 0px;
+        flex-direction: column;
+        width: 50%;
+        text-align: center;
+        padding: 5rem;
+        font-weight: 500;
+        transition: 1s;
+    }
+
+    .uflex ul {
+        flex-direction: column;
+        gap: 20px;
+        display: flex;
+    }
+
+    .newuflex {
+        background-color: lavender;
+        height: 100vh;
+        position: fixed;
+        right: 0%;
+        top: 0px;
+        flex-direction: column;
+        width: 50%;
+        text-align: center;
+        padding: 5rem;
+        font-weight: 500;
+        transition: 1s;
+    }
+
+    .newuflex ul {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    #navbarbtndiv {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    /* login btn */
+}

@@ -1,0 +1,134 @@
+.signinimgdiv img {
+    width: 430px;
+    height: 675px;
+    object-fit: cover;
+
+}
+
+.signinrightdiv {
+    padding-top: 4rem !important;
+    padding-inline: 10rem !important;
+}
+
+.signinrightdiv h3 {
+    font-family: Montserrat;
+    font-weight: 600;
+    text-align: center;
+    font-size: 35px;
+}
+
+.signinrightdiv p {
+    font-family: Montserrat;
+    font-weight: 500;
+    text-align: center;
+    font-size: 16px;
+}
+
+.notviewicon {
+
+    position: absolute;
+    top: 10px;
+    right: 70px;
+    cursor: pointer;
+    font-size: 20px;
+
+}
+
+
+.formdiv {
+    padding-top: 2rem !important;
+
+}
+
+.passworddiv {
+    position: relative;
+
+}
+
+#passworddiv {
+    padding-top: 0.7rem !important;
+}
+
+.formdiv label {
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.formdiv input {
+    background: #F3F3F3;
+    width: 90%;
+    border: 1px solid #007AFF;
+    outline: none;
+    border-radius: 0.5rem;
+    padding: 0.4rem !important;
+
+}
+
+
+.checkboxdiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 3rem !important;
+    font-size: 14px;
+    padding-top: 0.7rem !important;
+}
+
+.checkboxdiv small {
+    padding-left: 0.4rem !important;
+    font-size: 14px;
+}
+
+.checkboxdiv span {
+    color: #394541;
+}
+
+.signinbtn {
+    padding-top: 1rem !important;
+}
+
+.signinbtn button {
+    border-radius: 10px;
+    border: none;
+    background: #284639;
+    width: 90%;
+    padding: 0.7rem !important;
+    color: #fff;
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.ordiv {
+    padding-top: 1rem !important;
+}
+
+.gooleinbtn {
+    text-align: center;
+    padding-top: 1rem !important;
+}
+
+.gooleinbtn button {
+    border-radius: 10px;
+    border: none;
+    background: transparent;
+    width: 50%;
+    padding: 0.7rem !important;
+    color: black;
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 14px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+@media screen and (max-width:500px) {
+    .signinrightdiv {
+        padding-inline: 2rem !important;
+    }
+
+    .signinimgdiv img {
+        display: none;
+    
+    }
+}
